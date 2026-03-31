@@ -6,6 +6,8 @@
 
 A Codex skill for turning one-off AI ideas into repeatable workflows with prompts, tools, MCP integrations, checks, and evaluation loops.
 
+Use this when the main stack direction is already mostly known. If the bigger question is still local model choice, deployment path, or LM Studio versus Ollama versus MLX, [local-ai-systems-studio](https://github.com/however-yir/codex-skill-local-ai-systems-studio) is the better first stop.
+
 ## What This Skill Does
 
 This skill helps design AI workflows that can be reused, inspected, and improved over time. It is built for prompt pipelines, local LLM setups, tool-using agents, workflow decomposition, and deciding when something should become a skill, script, or MCP server.

@@ -1,20 +1,20 @@
 ---
 name: ai-agent-workflow
-description: "Use when designing or improving AI engineering workflows: prompt pipelines, local LLM usage, MCP integrations, tool-using agents, reusable skills, evaluation loops, or automation flows. Trigger this for agent architecture, prompt refinement, tool grounding, workflow decomposition, and turning repeatable AI tasks into durable systems."
+description: "Use when designing or improving AI engineering workflows after the stack direction is already mostly known. Covers prompt pipelines, MCP integrations, tool-using agents, reusable skills, evaluation loops, and workflow decomposition. Trigger this for agent architecture, prompt refinement, tool grounding, workflow design, and turning repeatable AI tasks into durable systems. If the main question is local model selection, deployment path, or LM Studio versus Ollama versus MLX, use local-ai-systems-studio instead."
 ---
 
 # AI Agent Workflow
 
-Use this skill when the goal is not just to get one answer, but to build a repeatable AI-assisted workflow.
+Use this skill when the goal is not just to get one answer, but to build a repeatable AI-assisted workflow and the main stack direction is already mostly known.
 
-This skill is for taking vague AI ideas and turning them into structured loops: prompts, tools, retrieval, checks, and reusable building blocks.
+This skill is for taking AI ideas and turning them into structured loops: prompts, tools, retrieval, checks, and reusable building blocks.
 
 ## Inputs
 
 Useful inputs for this skill include:
 - the repeatable task you want the workflow to handle
 - current prompt, script, tool, or skill draft if one exists
-- model constraints such as local LLM only, API limits, or offline requirements
+- model constraints such as local-only or API limits when the basic stack is already chosen
 - available tools, MCP servers, files, or data sources
 - quality bar, failure modes, and evaluation expectations
 
@@ -31,6 +31,8 @@ Strong outputs from this skill usually include one or more of:
 ## Non-goals
 
 This skill is not the best fit for:
+- choosing between local deployment stacks such as MLX, GGUF, LM Studio, Ollama, or vLLM
+- hardware-first local LLM decisions or local serving setup questions
 - one-off content writing with no reusable workflow need
 - generic code fixes unrelated to AI systems or tooling
 - visual design, portfolio packaging, or office-document polish
@@ -57,6 +59,8 @@ Decide whether the problem is best solved by:
 - evaluation and iteration
 - a small script or automation
 
+If the decision is still mainly about local stack choice, deployment path, or hardware fit, hand the problem to `local-ai-systems-studio` first.
+
 3. Keep the workflow explicit.
 Spell out:
 - inputs
@@ -81,6 +85,7 @@ User request:
 > I want to use my local Qwen model to summarize PDFs, extract tasks, and save clean notes.
 
 Good use of this skill:
+- assume the local stack is already basically chosen
 - separate extraction, cleanup, and summarization stages
 - define what can stay prompt-only versus what should call tools
 - specify stable input and output shapes so the workflow can be repeated
@@ -106,6 +111,7 @@ Good use of this skill:
 ## Pairing With Other Skills
 
 Use these when appropriate:
+- `local-ai-systems-studio` when the main question is local model choice, deployment path, or hardware-to-stack fit
 - `mcp-server-builder` for real tool integration
 - `skill-creator` and `skill-reviewer` for reusable workflow packaging
 - `skills-search` before building from scratch
@@ -116,7 +122,7 @@ Use these when appropriate:
 
 Common requests that should trigger this skill:
 - "Help me turn this into an agent workflow"
-- "How should I structure local LLM plus tools?"
+- "How should I structure this workflow now that I know the stack?"
 - "Should this be a skill, prompt, script, or MCP server?"
 - "Make this AI task reusable"
 - "Design an eval loop for this workflow"
